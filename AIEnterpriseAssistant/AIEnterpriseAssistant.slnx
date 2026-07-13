@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AIEnterpriseAssistant.Api/AIEnterpriseAssistant.Api.csproj" />
+    <Project Path="src/AIEnterpriseAssistant.Application/AIEnterpriseAssistant.Application.csproj" />
+    <Project Path="src/AIEnterpriseAssistant.Domain/AIEnterpriseAssistant.Domain.csproj" />
+    <Project Path="src/AIEnterpriseAssistant.Infrastructure/AIEnterpriseAssistant.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AIEnterpriseAssistant.Tests/AIEnterpriseAssistant.Tests.csproj" />
+  </Folder>
+</Solution>
