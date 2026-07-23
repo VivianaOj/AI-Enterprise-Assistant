@@ -1,13 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Suppress known vulnerability warning for Microsoft.OpenApi (transitive dependency) -->
+    <!-- This should be resolved when Microsoft.AspNetCore.OpenApi updates to a patched version -->
+    <NoWarn>$(NoWarn);NU1903</NoWarn>
+    <UserSecretsId>9bb76368-39df-45d5-b31c-4b173001bd6d</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+    <PackageReference Include="Azure.AI.OpenAI" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.6" />
+    <PackageReference Include="System.ClientModel" Version="1.10.0" />
   </ItemGroup>
 
   <ItemGroup>

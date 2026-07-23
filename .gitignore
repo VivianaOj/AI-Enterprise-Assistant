@@ -4,3 +4,26 @@
 
 /.github
 /.vs
+
+# .NET build outputs
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+
+# User-specific files
+*.rsuser
+*.dll.su
+*.exe.su
+
+# User Secrets
+secrets.json
+appsettings.secrets.json
+
+# VS Code
+.vscode/
+
+# IDE
+*.sln.docstates
+*.DotSettings.user
